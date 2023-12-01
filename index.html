@@ -1,0 +1,123 @@
+<html>
+<head>
+    <title>Recipe Website</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            margin-bottom: 0;
+        }
+
+        h3 {
+            color: #555;
+            text-align: center;
+        }
+
+        form {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        input[type="submit"] {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #217dbb;
+        }
+
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        .dish {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin: 10px;
+        }
+
+        img {
+            width: 450px;
+	    height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+
+        form:last-child {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to my Recipe Website</h1>
+    <h3>Explore and enjoy delicious dishes from around the world!</h3>
+
+    <form action="catalog.html">
+        <h3>Join the recipe catalog to check recipes</h3>
+        <p><input type="submit" value="Recipe Catalog"></p>
+    </form>
+
+    <section id="featured-dishes">
+        <table>
+            <tr>
+                <td>
+                    <div class="dish">
+                        <img src="classic_tiramisu_recipe-942x628.jpg" alt="Dessert 1"">
+                        <p><a href="Tiramisu_Recipe.html">Tiramisu</a></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="dish">
+                        <img src="Beef-Spiedini_EXPS_CSF16_153466_06B_01_8b-9.jpg" alt="Beef Spiedini">
+                        <p><a href="Beef_Spiedini_Recipe.html">Beef Spiedini</a></p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="dish">
+                        <img src="singleimagebug-white-pizza-1548690801.jpg" alt="Delicious Dish 3">
+                        <p><a href="White_Pizza_Recipe.html">White Pizza</a>
+                    </div>
+                </td>
+                <td>
+                    <div class="dish">
+                        <img src="italian-meatballs-vertical-1-1545406095.jpg" alt="Delicious Dish 4">
+                        <p><a href="Italian_Meatballs_Recipe.html">Italian Meatballs</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <form action="contact.html">
+        <h3>Contact Us for any questions or feedback</h3>
+        <p><input type="submit" value="Contact Us!"></p>
+    </form>
+</body>
+
+</html>

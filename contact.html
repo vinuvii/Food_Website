@@ -1,0 +1,95 @@
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            margin-bottom: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            height: 150px;
+        }
+
+        input[type="submit"] {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #217dbb;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="index.html">
+        <p><input type="submit" value="Return Home"></p>
+    </form>
+
+    <h1>Contact Us</h1>
+
+    <div class="container">
+        <p>Welcome to our Recipe Website! If you have any questions, feedback, or suggestions regarding our recipes, feel free to reach out to us using the contact form below.</p>
+
+        <p>Thank you for exploring and enjoying delicious dishes from around the world with us!</p>
+
+        <form action="submit_feedback.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Submit Feedback">
+        </form>
+    </div>
+
+</body>
+</html>
